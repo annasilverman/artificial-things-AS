@@ -64,10 +64,9 @@ main p {
     text-indent: 2em;
 }
 
-/* target first p that is an immediate child of main to be italic and bold */
+/* target first p that is an immediate child of main to be italic */
 main > p:nth-of-type(1) { 
     font-style: italic;
-    font-weight: bold;
 }
 
 /* JS is moving the aside block elsewhere; here it is styled here with a border and extra padding/margin */
